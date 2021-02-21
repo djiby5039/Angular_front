@@ -15,6 +15,8 @@ import { UpdateComponent } from './admin/update/update.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SignupComponent } from './auth/signup/signup.component';
+import { SigninComponent } from './auth/signin/signin.component';
 
 const routes: Routes = [
   { path: '', component: AppComponent},
@@ -35,7 +37,9 @@ const routes: Routes = [
     CreateComponent,
     DeleteComponent,
     UpdateComponent,
-    HeaderComponent
+    HeaderComponent,
+    SignupComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
